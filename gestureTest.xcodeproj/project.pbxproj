@@ -13,6 +13,14 @@
 		3032A42920465965003CB94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3032A42820465965003CB94F /* Assets.xcassets */; };
 		3032A42C20465965003CB94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3032A42A20465965003CB94F /* LaunchScreen.storyboard */; };
 		3032A42F20465965003CB94F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032A42E20465965003CB94F /* main.m */; };
+		3069BA602048F65800E0B364 /* UIGestureRecognizer+Sleep.m in Sources */ = {isa = PBXBuildFile; fileRef = 3069BA5F2048F65800E0B364 /* UIGestureRecognizer+Sleep.m */; };
+		3069BA632048F6A200E0B364 /* UIView+Sleep.m in Sources */ = {isa = PBXBuildFile; fileRef = 3069BA622048F6A200E0B364 /* UIView+Sleep.m */; };
+		3069BA662048F73900E0B364 /* UIResponder+Sleep.m in Sources */ = {isa = PBXBuildFile; fileRef = 3069BA652048F73900E0B364 /* UIResponder+Sleep.m */; };
+		3069BA692048FA2000E0B364 /* UIWindow+Sleep.m in Sources */ = {isa = PBXBuildFile; fileRef = 3069BA682048FA2000E0B364 /* UIWindow+Sleep.m */; };
+		3069BA6C2048FA7A00E0B364 /* UIApplication+Sleep.m in Sources */ = {isa = PBXBuildFile; fileRef = 3069BA6B2048FA7A00E0B364 /* UIApplication+Sleep.m */; };
+		3069BA8F204BD66900E0B364 /* JRSwizzle+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 3069BA8E204BD66900E0B364 /* JRSwizzle+Block.m */; };
+		3069BA93204BF2A800E0B364 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 3069BA91204BF2A800E0B364 /* fishhook.c */; };
+		BAA5CD33763882836AE97B0D /* libPods-gestureTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53667CFFB088649B1660D993 /* libPods-gestureTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,23 @@
 		3032A42B20465965003CB94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3032A42D20465965003CB94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3032A42E20465965003CB94F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3069BA5E2048F65800E0B364 /* UIGestureRecognizer+Sleep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Sleep.h"; sourceTree = "<group>"; };
+		3069BA5F2048F65800E0B364 /* UIGestureRecognizer+Sleep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Sleep.m"; sourceTree = "<group>"; };
+		3069BA612048F6A200E0B364 /* UIView+Sleep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Sleep.h"; sourceTree = "<group>"; };
+		3069BA622048F6A200E0B364 /* UIView+Sleep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sleep.m"; sourceTree = "<group>"; };
+		3069BA642048F73900E0B364 /* UIResponder+Sleep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Sleep.h"; sourceTree = "<group>"; };
+		3069BA652048F73900E0B364 /* UIResponder+Sleep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Sleep.m"; sourceTree = "<group>"; };
+		3069BA672048FA2000E0B364 /* UIWindow+Sleep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Sleep.h"; sourceTree = "<group>"; };
+		3069BA682048FA2000E0B364 /* UIWindow+Sleep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Sleep.m"; sourceTree = "<group>"; };
+		3069BA6A2048FA7A00E0B364 /* UIApplication+Sleep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Sleep.h"; sourceTree = "<group>"; };
+		3069BA6B2048FA7A00E0B364 /* UIApplication+Sleep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Sleep.m"; sourceTree = "<group>"; };
+		3069BA8D204BD66900E0B364 /* JRSwizzle+Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle+Block.h"; sourceTree = "<group>"; };
+		3069BA8E204BD66900E0B364 /* JRSwizzle+Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JRSwizzle+Block.m"; sourceTree = "<group>"; };
+		3069BA91204BF2A800E0B364 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		3069BA92204BF2A800E0B364 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		465E0BC395465811694263CF /* Pods-gestureTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gestureTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gestureTest/Pods-gestureTest.debug.xcconfig"; sourceTree = "<group>"; };
+		53667CFFB088649B1660D993 /* libPods-gestureTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gestureTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85169CE83721303FE37D969A /* Pods-gestureTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gestureTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-gestureTest/Pods-gestureTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +58,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA5CD33763882836AE97B0D /* libPods-gestureTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091C716F61BA874DF6CE4FFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				465E0BC395465811694263CF /* Pods-gestureTest.debug.xcconfig */,
+				85169CE83721303FE37D969A /* Pods-gestureTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3032A41320465965003CB94F = {
 			isa = PBXGroup;
 			children = (
 				3032A41E20465965003CB94F /* gestureTest */,
 				3032A41D20465965003CB94F /* Products */,
+				091C716F61BA874DF6CE4FFD /* Pods */,
+				77BDCA526611AEB4540304A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +97,7 @@
 			children = (
 				3032A41F20465965003CB94F /* AppDelegate.h */,
 				3032A42020465965003CB94F /* AppDelegate.m */,
+				3069BA90204BF2A800E0B364 /* fishhook */,
 				3032A42220465965003CB94F /* ViewController.h */,
 				3032A42320465965003CB94F /* ViewController.m */,
 				3032A42520465965003CB94F /* Main.storyboard */,
@@ -67,8 +105,37 @@
 				3032A42A20465965003CB94F /* LaunchScreen.storyboard */,
 				3032A42D20465965003CB94F /* Info.plist */,
 				3032A42E20465965003CB94F /* main.m */,
+				3069BA5E2048F65800E0B364 /* UIGestureRecognizer+Sleep.h */,
+				3069BA5F2048F65800E0B364 /* UIGestureRecognizer+Sleep.m */,
+				3069BA612048F6A200E0B364 /* UIView+Sleep.h */,
+				3069BA622048F6A200E0B364 /* UIView+Sleep.m */,
+				3069BA642048F73900E0B364 /* UIResponder+Sleep.h */,
+				3069BA652048F73900E0B364 /* UIResponder+Sleep.m */,
+				3069BA672048FA2000E0B364 /* UIWindow+Sleep.h */,
+				3069BA682048FA2000E0B364 /* UIWindow+Sleep.m */,
+				3069BA6A2048FA7A00E0B364 /* UIApplication+Sleep.h */,
+				3069BA6B2048FA7A00E0B364 /* UIApplication+Sleep.m */,
+				3069BA8D204BD66900E0B364 /* JRSwizzle+Block.h */,
+				3069BA8E204BD66900E0B364 /* JRSwizzle+Block.m */,
 			);
 			path = gestureTest;
+			sourceTree = "<group>";
+		};
+		3069BA90204BF2A800E0B364 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				3069BA91204BF2A800E0B364 /* fishhook.c */,
+				3069BA92204BF2A800E0B364 /* fishhook.h */,
+			);
+			path = fishhook;
+			sourceTree = "<group>";
+		};
+		77BDCA526611AEB4540304A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53667CFFB088649B1660D993 /* libPods-gestureTest.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3032A43220465965003CB94F /* Build configuration list for PBXNativeTarget "gestureTest" */;
 			buildPhases = (
+				5ED5C176E3F2469155719E62 /* [CP] Check Pods Manifest.lock */,
 				3032A41820465965003CB94F /* Sources */,
 				3032A41920465965003CB94F /* Frameworks */,
 				3032A41A20465965003CB94F /* Resources */,
+				96055726807ADEA2B739C9FC /* [CP] Embed Pods Frameworks */,
+				41C8D8432CAAF435BC4AE409 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,14 +207,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41C8D8432CAAF435BC4AE409 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-gestureTest/Pods-gestureTest-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/SAKCurl/SAKCurl.bundle,
+				"${PODS_ROOT}/SAKEnvironment/Resources/citydata.plist",
+				$PODS_CONFIGURATION_BUILD_DIR/SAKGuard/SAKGuard.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/SAKPerformance/SPFCoreData.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/SAKUIKit/SAKUIKit.bundle,
+				"${PODS_ROOT}/ntp/Resources/ntp.hosts",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gestureTest/Pods-gestureTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ED5C176E3F2469155719E62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gestureTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96055726807ADEA2B739C9FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gestureTest/Pods-gestureTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3032A41820465965003CB94F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3069BA602048F65800E0B364 /* UIGestureRecognizer+Sleep.m in Sources */,
+				3069BA662048F73900E0B364 /* UIResponder+Sleep.m in Sources */,
 				3032A42420465965003CB94F /* ViewController.m in Sources */,
+				3069BA6C2048FA7A00E0B364 /* UIApplication+Sleep.m in Sources */,
 				3032A42F20465965003CB94F /* main.m in Sources */,
+				3069BA692048FA2000E0B364 /* UIWindow+Sleep.m in Sources */,
+				3069BA93204BF2A800E0B364 /* fishhook.c in Sources */,
+				3069BA632048F6A200E0B364 /* UIView+Sleep.m in Sources */,
 				3032A42120465965003CB94F /* AppDelegate.m in Sources */,
+				3069BA8F204BD66900E0B364 /* JRSwizzle+Block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +412,13 @@
 		};
 		3032A43320465965003CB94F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 465E0BC395465811694263CF /* Pods-gestureTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NCX2WCTH8;
 				INFOPLIST_FILE = gestureTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dianping.gestureTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,11 +428,13 @@
 		};
 		3032A43420465965003CB94F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85169CE83721303FE37D969A /* Pods-gestureTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NCX2WCTH8;
 				INFOPLIST_FILE = gestureTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dianping.gestureTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,71 @@
+{
+  "name": "Caesium",
+  "version": "0.1.15",
+  "summary": "Trace objc_msgSend and record the time cost",
+  "description": "Caesium: Trace objc_msgSend and record the time cost\n在现行国际单位制下，在1967年召开的第13届国际度量衡大会对秒的定义是：铯（Caesium）133原子基态的两个超精细能阶间跃迁对应辐射的9,192,631,770个周期的持续时间。第一个精确的原子钟便是根据铯-133的迁越制成的。",
+  "homepage": "http://git.sankuai.com/projects/IOS/repos/caesium/browse",
+  "license": "All rights reserved",
+  "authors": {
+    "xuzhen": "xuzhen@meituan.com"
+  },
+  "source": {
+    "git": "ssh://git@git.sankuai.com/ios/caesium.git",
+    "tag": "0.1.15"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "pod_target_xcconfig": {
+    "GCC_TREAT_WARNINGS_AS_ERRORS": "YES"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Caesium/{Core,ControlCenter,DataProcessor,Util,LoadMethodTracer,MessageSendTracer}/**/*.{h,m,c,s}",
+      "dependencies": {
+        "Kylin": [
+          "~> 0.1"
+        ]
+      },
+      "requires_arc": "Caesium/{Core,ControlCenter,Util,LoadMethodTracer,MessageSendTracer}/**/*.{h,m,c,s}"
+    },
+    {
+      "name": "NetworkTracer",
+      "source_files": "Caesium/NetworkRequestTracer/**/*.{h,c,m}",
+      "dependencies": {
+        "SAKBaseModel": [
+
+        ],
+        "Caesium/Core": [
+
+        ]
+      },
+      "requires_arc": true
+    },
+    {
+      "name": "RunloopTracer",
+      "source_files": "Caesium/RunloopTracer/**/*.{h,c,m}",
+      "dependencies": {
+        "Caesium/Core": [
+
+        ]
+      },
+      "requires_arc": true
+    },
+    {
+      "name": "Performance",
+      "source_files": "Caesium/Performance/**/*.{h,m}",
+      "dependencies": {
+        "Caesium/Core": [
+
+        ],
+        "SAKBaseModel": [
+
+        ],
+        "SAKPerformance": [
+          "~> 4.12"
+        ]
+      }
+    }
+  ]
+}
