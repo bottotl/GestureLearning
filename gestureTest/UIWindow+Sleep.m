@@ -10,7 +10,7 @@
 
 @implementation UIWindow (Sleep)
 - (void)jft_sendEvent:(UIEvent *)event {
-    NSLog(@"[%@], %@",NSStringFromSelector(_cmd), self);
+//    NSLog(@"[%@], %@",NSStringFromSelector(_cmd), self);
     [self jft_sendEvent:event];
 }
 @end

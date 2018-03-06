@@ -10,4 +10,8 @@
 
 @interface UIGestureRecognizer (Sleep)
 - (BOOL)jft_delegateShouldReceiveTouch:(UITouch *)delegate;
+- (void)jft_touchesBegan:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event;
+- (void)jft_touchesMoved:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event;
+- (void)jft_touchesEnded:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event;
+- (void)jft_touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event;
 @end
