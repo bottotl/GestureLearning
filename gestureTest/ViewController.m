@@ -50,7 +50,7 @@
 //}
 
 - (void)didTap:(UITapGestureRecognizer *)sender {
-    NSAssert(sender.view.tag == 2, @"something went wrong");
+//    NSAssert(sender.view.tag == 2, @"something went wrong");
     NSLog(@"[%@], %@",NSStringFromSelector(_cmd), self);
 }
 
@@ -100,23 +100,23 @@
 }
 
 - (void)removeViewAndRemoveGesture {
-    [self.aView removeFromSuperview];
+//    [self.aView removeFromSuperview];
     [self.bView removeFromSuperview];
-    [self.cView removeFromSuperview];
+//    [self.cView removeFromSuperview];
     
-    [self.aView removeGestureRecognizer:self.aGesture];
+//    [self.aView removeGestureRecognizer:self.aGesture];
     [self.bView removeGestureRecognizer:self.bGesture];
-    [self.cView removeGestureRecognizer:self.cGesture];
+//    [self.cView removeGestureRecognizer:self.cGesture];
 }
 
 - (void)addViewAndAddGesture {
-    [self.view addSubview:self.aView];
+//    [self.view addSubview:self.aView];
     [self.view addSubview:self.bView];
-    [self.view addSubview:self.cView];
+//    [self.view addSubview:self.cView];
     
-    [self.aView addGestureRecognizer:self.aGesture];
+//    [self.aView addGestureRecognizer:self.aGesture];
     [self.bView addGestureRecognizer:self.bGesture];
-    [self.cView addGestureRecognizer:self.cGesture];
+//    [self.cView addGestureRecognizer:self.cGesture];
     
 }
 
