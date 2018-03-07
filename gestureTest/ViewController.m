@@ -87,8 +87,9 @@
     self.aGesture = self.aView.gestureRecognizers.firstObject;
     self.bGesture = self.bView.gestureRecognizers.firstObject;
     self.cGesture = self.cView.gestureRecognizers.firstObject;
-    
 
+    [self doSomeThing];
+//
     NSTimer *timer = [[NSTimer alloc] initWithFireDate:0 interval:0.1 target:self selector:@selector(doSomeThing) userInfo:nil repeats:YES];
     [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
     
@@ -111,7 +112,7 @@
 
 - (void)addViewAndAddGesture {
 //    [self.view addSubview:self.aView];
-    [self.view addSubview:self.bView];
+    [self.aView addSubview:self.bView];
 //    [self.view addSubview:self.cView];
     
 //    [self.aView addGestureRecognizer:self.aGesture];
