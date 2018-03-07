@@ -10,7 +10,7 @@
 
 @implementation UIView (Sleep)
 - (UIView *)jft_hitTest:(CGPoint)point withEvent:(UIEvent *)event {
-//    NSLog(@"[%@], %@",NSStringFromSelector(_cmd), self);
+    NSLog(@"[%@], %@",NSStringFromSelector(_cmd), self);
     return [self jft_hitTest:point withEvent:event];
 }
 

@@ -69,38 +69,38 @@
 {
     // kCFRunLoopEntry
     CFRunLoopObserverRef entryObserverRef = CFRunLoopObserverCreateWithHandler(kCFAllocatorDefault, kCFRunLoopEntry, YES, INT_MIN, ^(CFRunLoopObserverRef observer, CFRunLoopActivity activity){
-//        printf("kCFRunLoopEntry\n");
+        printf("kCFRunLoopEntry\n");
     });
     self.entryObserverRef = entryObserverRef;
     
     // kCFRunLoopBeforeTimers
     CFRunLoopObserverRef beforeTimersObserverRef = CFRunLoopObserverCreateWithHandler(kCFAllocatorDefault, kCFRunLoopBeforeTimers, YES, 0, ^(CFRunLoopObserverRef observer, CFRunLoopActivity activity){
-//        printf("kCFRunLoopBeforeTimers\n");
+        printf("kCFRunLoopBeforeTimers\n");
     });
     self.beforeTimersObserverRef = beforeTimersObserverRef;
     
     // kCFRunLoopBeforeSources
     CFRunLoopObserverRef beforeSourcesObserverRef = CFRunLoopObserverCreateWithHandler(kCFAllocatorDefault, kCFRunLoopBeforeSources, YES, 0, ^(CFRunLoopObserverRef observer, CFRunLoopActivity activity){
-//        printf("kCFRunLoopBeforeSources\n");
+        printf("kCFRunLoopBeforeSources\n");
     });
     self.beforeSourcesObserverRef = beforeSourcesObserverRef;
     
     // kCFRunLoopBeforeWaiting
     CFRunLoopObserverRef beforeWaitingObserverRef = CFRunLoopObserverCreateWithHandler(kCFAllocatorDefault, kCFRunLoopBeforeWaiting, YES, 0, ^(CFRunLoopObserverRef observer, CFRunLoopActivity activity){
-//        printf("kCFRunLoopBeforeWaiting\n");
+        printf("kCFRunLoopBeforeWaiting\n");
     });
     self.beforeWaitingObserverRef = beforeWaitingObserverRef;
     
     
     // kCFRunLoopAfterWaiting
     CFRunLoopObserverRef afterWaitingObserverRef = CFRunLoopObserverCreateWithHandler(kCFAllocatorDefault, kCFRunLoopAfterWaiting, YES, 0, ^(CFRunLoopObserverRef observer, CFRunLoopActivity activity){
-//        printf("kCFRunLoopAfterWaiting\n");
+        printf("kCFRunLoopAfterWaiting\n");
     });
     self.afterWaitingObserverRef = afterWaitingObserverRef;
     
     // kCFRunLoopExit
     CFRunLoopObserverRef exitObserverRef = CFRunLoopObserverCreateWithHandler(kCFAllocatorDefault, kCFRunLoopExit, YES, 0, ^(CFRunLoopObserverRef observer, CFRunLoopActivity activity){
-//        printf("kCFRunLoopExit\n");
+        printf("kCFRunLoopExit\n");
     });
     self.exitObserverRef = exitObserverRef;
 }
